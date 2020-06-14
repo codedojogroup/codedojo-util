@@ -1,0 +1,11 @@
+"use strict";
+exports.__esModule = true;
+exports.instructor = exports.routes = exports.question = exports.handlers = void 0;
+var handlers = require("./src/models/handler");
+exports.handlers = handlers;
+var question = require("./src/models/question");
+exports.question = question;
+var routes = require("./src/models/routes");
+exports.routes = routes;
+var instructor = require("./src/models/instructor");
+exports.instructor = instructor;
