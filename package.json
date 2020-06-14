@@ -1,5 +1,5 @@
 {
-  "name": "codedojo-util",
+  "name": "@codedojo/util",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
