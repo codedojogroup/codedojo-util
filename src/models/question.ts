@@ -22,7 +22,7 @@ export interface Question {
     assertions: string[];
     catergory: Category;
     sampleInput: string;
-    sampleOut: string;
+    sampleOutput: string;
     difficulty: Difficulty;
     completed: boolean;
 }
