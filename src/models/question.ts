@@ -1,20 +1,28 @@
-import { iInstructor } from './instructor';
+import { Instructor } from './instructor';
 
 enum Difficulty {
     EASY,
-    MEDIUM,
+    MODERATE,
     HARD,
     INSANE
 }
 
-export interface iQuestion {
+enum Category {
+    MATHS,
+    ALGORITHM,
+    STRUCTURE,
+    PERFORMANCE
+}
+
+export interface Question {
     id: string;
     question: string;
     explanation: string;
-    teacher: iInstructor;
-    assertions: any[];
-    catergory: any;
+    instructor: Instructor;
+    assertions: string[];
+    catergory: Category;
     sampleInput: string;
     sampleOut: string;
     difficulty: Difficulty;
+    completed: boolean;
 }
